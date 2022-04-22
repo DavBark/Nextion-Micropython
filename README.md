@@ -11,6 +11,8 @@ Repository für die Verwendung eins Nextion HMI Displays mit einem ESP32
 
 [Software Tutorials](https://www.boecker-systemelektronik.de/Seite-/-Kategorie-1/NextionTutorials/Der-Nextion-Editor)
 
+[UART Micropython](https://docs.micropython.org/en/latest/library/machine.UART.html)
+
 
 ## Kommunikation
 
