@@ -1,3 +1,13 @@
+# Beispiel: print(senden("get t1.txt"))
+# >>> b'pHallo\xff\xff\xff'
+def senden(cmd):
+    uart.write(cmd)
+    uart.write(end_cmd)
+    time.sleep_ms(100)
+    answerNex =  uart.read()
+    #print("Response:", answerNex) # Uncommend for Deebugging
+    return answerNex
+
 # Beispiel: print(auswertenBuchstaben("get n1.val"))
 # >>> 50
 def auswertenZahl(cmd):
