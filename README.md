@@ -1,6 +1,8 @@
 # Nextion-Micropython
 Repository für die Verwendung eins Nextion HMI Displays mit einem ESP32
 
+![Nextion Display](Bilder/NX3224F028.jpg)
+
 # Links
 
 [Quickstart](https://itead.cc/nextion-display/)
