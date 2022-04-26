@@ -13,10 +13,23 @@ Repository für die Verwendung eins Nextion HMI Displays mit einem ESP32
 
 [UART Micropython](https://docs.micropython.org/en/latest/library/machine.UART.html)
 
+## Anschluss Programieren (PC -> Nextion)
+USB zu TTL ----------------- Nextion
+    5V --------------- 5V Red
+    GND -------------- GND Black
+    RX --------------- TX Blue
+    TX --------------- RX Yellow
+
 
 ## Kommunikation
+Die Kommunikation von ESP und Nextion geschieht über UART.
 
-Die Verbindung zwischen ESP und Display erfolgt über UART
+Nextion Display -------- USB zu TTL
+   5V (Red) ------------------------- 5V
+  GND (Black) ----------------------- GND
+   TX (Blue) ------------------------ RX (Pin 26)
+   RX (Yellow)----------------------- TX (Pin 25)
+   
 ```python
 import machine
 uart = machine.UART(1, tx=25, rx=26, baudrate=9600)
