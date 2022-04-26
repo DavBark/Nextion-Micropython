@@ -24,7 +24,7 @@ Repository für die Verwendung eins Nextion HMI Displays mit einem ESP32
 
 
 ## Kommunikation
-#
+
 Anschluss von ESP zum Display
 | ESP | Nextion |
 | ------------ | ----------- |
