@@ -1,12 +1,17 @@
+import machine
+uart = machine.UART(1, tx=25, rx=26, baudrate=9600)
+
+
 # Beispiel: print(senden("get t1.txt"))
 # >>> b'pHallo\xff\xff\xff'
 def senden(cmd):
     uart.write(cmd)
     uart.write(end_cmd)
     time.sleep_ms(100)
-    answerNex =  uart.read()
-    #print("Response:", answerNex) # Uncommend for Deebugging
-    return answerNex
+    answerNextion =  uart.read()
+    #print("Response:", answerNextion) # Uncommend for Deebugging
+    return answerNextion
+
 
 # Beispiel: print(auswertenBuchstaben("get n1.val"))
 # >>> 50
