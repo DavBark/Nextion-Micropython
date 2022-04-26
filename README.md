@@ -36,8 +36,9 @@ def send(cmd):
 
 
 ## Übersicht an Befehlen
-[Befehle](https://www.boecker-systemelektronik.de/Seite-/-Kategorie-1/NextionTutorials/Befehlsuebersicht)
+[Weitere Befehle](https://www.boecker-systemelektronik.de/Seite-/-Kategorie-1/NextionTutorials/Befehlsuebersicht)
 
+## Beispiel Befehke
 Wechsel zur Seite 1 / 2
 ```python
 send("page 1")
