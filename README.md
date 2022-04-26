@@ -38,11 +38,14 @@ def send(cmd):
 ## Übersicht an Befehlen
 [Weitere Befehle](https://www.boecker-systemelektronik.de/Seite-/-Kategorie-1/NextionTutorials/Befehlsuebersicht)
 
-## Beispiel Befehke
-Wechsel zur Seite 1 / 2
+## Beispiel Befehle
+Die Seite kann auch in der Nextion-Software bennant werden
 ```python
+# Wechsel zur Seite 1
 send("page 1")
-send("page 2")
+
+# Was auch möglich ist:
+send("page Hauptseite")
 ```
 Lesen, was im Textbaustein t1 steht
 ```python
