@@ -20,7 +20,7 @@ Repository für die Verwendung eins Nextion HMI Displays mit einem ESP32
 | GND | Black (GND) |
 | RX | Blue (TX) |
 | TX | Yellow (RX) |
-#
+
 
 ## Kommunikation
 
@@ -31,7 +31,7 @@ Anschluss von ESP zum Display
 | GND | Black (GND) |
 | RX (Pin 26) | Blue (TX) |
 | TX (Pin 25) | Yellow (RX) |
-#
+
 
 Die Kommunikation von ESP und Nextion geschieht über UART.
 ```python
