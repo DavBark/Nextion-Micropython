@@ -4,6 +4,8 @@ uart = machine.UART(1, tx=25, rx=26, baudrate=9600)
 
 # Beispiel: print(senden("get t1.txt"))
 # >>> b'pHallo\xff\xff\xff'
+end_cmd = b'\xFF\xFF\xFF'
+
 def senden(cmd):
     uart.write(cmd)
     uart.write(end_cmd)
