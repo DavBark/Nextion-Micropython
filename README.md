@@ -7,6 +7,8 @@ Repository für die Verwendung eins Nextion HMI Displays mit einem ESP32
 
 [Quickstart](https://itead.cc/nextion-display/)
 
+[Datenblätter (auf richtige Artikelnummer achten)](https://nextion.tech/datasheets/)
+
 [Nextion Software](https://nextion.tech/nextion-editor/#_section1)
 
 [Software Tutorials](https://www.boecker-systemelektronik.de/Seite-/-Kategorie-1/NextionTutorials/Der-Nextion-Editor)
